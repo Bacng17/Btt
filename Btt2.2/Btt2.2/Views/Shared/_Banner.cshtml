@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Btt2._2.Models.Product>
+
+<div class="container mt-3">
+    <div class="row">
+        <!-- Cột menu -->
+        <div class="col-md-3">
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-primary">Danh mục sản phẩm</a>
+                <a href="#" class="list-group-item">Áo dài</a>
+                <a href="#" class="list-group-item">Áo đông</a>
+                <a href="#" class="list-group-item">Túi xách</a>
+                <a href="#" class="list-group-item">Đồng hồ</a>
+                <a href="#" class="list-group-item">Ví da</a>
+                <a href="#" class="list-group-item">Thắt lưng da</a>
+                <a href="#" class="list-group-item">Tủ lạnh</a>
+                <a href="#" class="list-group-item">Tivi</a>
+                <a href="#" class="list-group-item">Quạt điện</a>
+                <a href="#" class="list-group-item">Lò sưởi</a>
+            </div>
+        </div>
+
+        <!-- Cột sản phẩm -->
+        <div class="col-md-9">
+            <h3>Sản phẩm nổi bật</h3>
+            <div class="row">
+                @foreach (var p in Model)
+                {
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="@p.Image" class="card-img-top" alt="@p.Name">
+                            <div class="card-body">
+                                <h5 class="card-title">@p.Name</h5>
+                                <p class="card-text">@p.Price.ToString("N0") đ</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

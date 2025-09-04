@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Btt2._2.Models.Product>
+
+<div class="featured-products">
+    <h3>Sản phẩm nổi bật</h3>
+    <div class="row">
+        @foreach (var p in Model)
+        {
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="@p.Image" class="card-img-top" alt="@p.Name">
+                    <div class="card-body">
+                        <h5 class="card-title">@p.Name</h5>
+                        <p class="card-text">@p.Price.ToString("N0") đ</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
