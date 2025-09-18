@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\adminlte\css\adminlte.css" />
+    <Content Remove="wwwroot\adminlte\css\adminlte.css.map" />
+    <Content Remove="wwwroot\adminlte\css\adminlte.min.css" />
+    <Content Remove="wwwroot\adminlte\css\adminlte.min.css.map" />
+    <Content Remove="wwwroot\adminlte\css\adminlte.rtl.css" />
+    <Content Remove="wwwroot\adminlte\css\adminlte.rtl.css.map" />
+    <Content Remove="wwwroot\adminlte\css\adminlte.rtl.min.css" />
+    <Content Remove="wwwroot\adminlte\css\adminlte.rtl.min.css.map" />
+    <Content Remove="wwwroot\adminlte\js\adminlte.js" />
+    <Content Remove="wwwroot\adminlte\js\adminlte.js.map" />
+    <Content Remove="wwwroot\adminlte\js\adminlte.min.js" />
+    <Content Remove="wwwroot\adminlte\js\adminlte.min.js.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\adminlte\css\adminlte.css" />
+    <None Include="wwwroot\adminlte\css\adminlte.css.map" />
+    <None Include="wwwroot\adminlte\css\adminlte.min.css" />
+    <None Include="wwwroot\adminlte\css\adminlte.min.css.map" />
+    <None Include="wwwroot\adminlte\css\adminlte.rtl.css" />
+    <None Include="wwwroot\adminlte\css\adminlte.rtl.css.map" />
+    <None Include="wwwroot\adminlte\css\adminlte.rtl.min.css" />
+    <None Include="wwwroot\adminlte\css\adminlte.rtl.min.css.map" />
+    <None Include="wwwroot\adminlte\js\adminlte.js" />
+    <None Include="wwwroot\adminlte\js\adminlte.js.map" />
+    <None Include="wwwroot\adminlte\js\adminlte.min.js" />
+    <None Include="wwwroot\adminlte\js\adminlte.min.js.map" />
+  </ItemGroup>
+
+</Project>
