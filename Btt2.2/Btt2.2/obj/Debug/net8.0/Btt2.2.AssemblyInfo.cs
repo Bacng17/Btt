@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Btt2.2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+702f7255656a3fd4819a1fc689100fddcc34400f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Btt2.2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Btt2.2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ltw\\Btt2.2\\Btt2.2\\Btt2.2.csproj": {}
+    "D:\\Ltw\\Btt\\Btt2.2\\Btt2.2\\Btt2.2.csproj": {}
   },
   "projects": {
-    "D:\\Ltw\\Btt2.2\\Btt2.2\\Btt2.2.csproj": {
+    "D:\\Ltw\\Btt\\Btt2.2\\Btt2.2\\Btt2.2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ltw\\Btt2.2\\Btt2.2\\Btt2.2.csproj",
+        "projectUniqueName": "D:\\Ltw\\Btt\\Btt2.2\\Btt2.2\\Btt2.2.csproj",
         "projectName": "Btt2.2",
-        "projectPath": "D:\\Ltw\\Btt2.2\\Btt2.2\\Btt2.2.csproj",
+        "projectPath": "D:\\Ltw\\Btt\\Btt2.2\\Btt2.2\\Btt2.2.csproj",
         "packagesPath": "C:\\Users\\bacng\\.nuget\\packages\\",
-        "outputPath": "D:\\Ltw\\Btt2.2\\Btt2.2\\obj\\",
+        "outputPath": "D:\\Ltw\\Btt\\Btt2.2\\Btt2.2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\vstim3\\NuGetPackages"
